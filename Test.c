@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-    printf("Hello World");
+    char bestBook[] = "Harry Potter";
+    printf("%s" , bestBook);
     return 0;
 }
