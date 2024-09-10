@@ -1,5 +1,3 @@
-print("this is where I do my work!")
-
-name= "Kathryn"
-
-print(name)
+food = input("what is your favorite food?: " )
+ 
+print("So yummy" , food)
