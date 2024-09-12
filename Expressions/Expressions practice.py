@@ -5,4 +5,4 @@ numThree = "8"
 numFour = "4"
 numFive = "6"
 
-print = (num-numTwo/numThree*numFour+numFive)
+float print = (num-numTwo/numThree*numFour+numFive)
