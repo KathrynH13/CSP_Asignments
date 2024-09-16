@@ -20,13 +20,18 @@ printf("You make $%.2f\n" , income);
 printf("Your expenses are $%.2f\n" , expenses);
 printf("Your savings are $%.2f\n" , savings);
 printf("Your spending money is $%.2f\n", spend);
-prent = rent/income *100;
+prent = rent/income*100;
 putilities= utilities/income *100;
 pgrocieries = grocieries/income *100;
 ptransportation = transportation/income *100;
 psavings = savings/income *100;
 pexpenses = expenses/income *100;
 printf("Your rent is %d%% of your income.\n" , (int) prent);
-
+printf("Your utilities is %d%% of your income.\n" , (int) putilities);
+printf("Your grocieries is %d%% of your income.\n" , (int) pgrocieries);
+printf("Your transportation is %d%% of your income.\n" , (int) ptransportation);
+printf("Your savings is %d%% of your income.\n" , (int) psavings);
+printf("Your expenses is %d%% of your income.\n" , (int) pexpenses);
+ 
 return 0;
 }
