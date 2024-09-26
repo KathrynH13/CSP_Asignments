@@ -1,10 +1,14 @@
 #include <stdio.h>
+
+void name(char name[]){
+    printf("hello %s\n", name);
+}
+
 int main(void){
-    printf("\n Hello Kathryn");
-    printf("\n Hello Kent");
-    printf("\n Hello Caleb");
-    printf("\n Hello Richard");
-    printf("\n Hello Kyla");
-  
+    name("Kathryn!");
+    name("Richard!");
+    name("Kyla!");
+    name("Caleb!");
+    name("Kent!");
 return 0;
 }
