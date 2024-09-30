@@ -1,6 +1,8 @@
 
 print("This is a budget calculator.")
 def getFinancials():
+    finance = income, rent, utilities, grocieries, transportation, savings, expenses, spend
+ 
     income = float(input ("How much do you make a month? "))
     rent = float(input ("How much do your rent cost? "))
     utilities = float(input("How much do your utilities cost? "))
