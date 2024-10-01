@@ -1,5 +1,5 @@
 time = 145
-if time >= 120:
-        print("Good Afternoon")
-else:
+if time >= 1200:
         print("Good Morning")
+else:
+        print("Good Afternoon")
