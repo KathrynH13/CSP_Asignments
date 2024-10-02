@@ -38,3 +38,24 @@ def caculatePercents(rent, income,utilities, grocieries, transportation, savings
 
 income, rent, utilities, grocieries, transportation, savings, expenses, spend= getFinancials()
 caculatePercents(rent, income,utilities, grocieries, transportation, savings, expenses)
+
+def get_financials(type):
+
+    money = float(input(f"What is your {type}?"))
+
+    return money
+
+
+def cal_per(type, amount,income):
+    percent = amount/income *100
+
+    return f"Your {type} is {percent} "
+
+income = get_financials("income")
+transpo = get_financials("transpo")
+rent = get_financials('rent')
+
+
+print(cal_per("percent rent", rent, income))
+print(cal_per("transoportation",transpo,income))
+
