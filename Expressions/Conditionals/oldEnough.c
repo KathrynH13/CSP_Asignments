@@ -11,12 +11,12 @@ int main(void){
         if (age ==15){
         printf("You are old enough to get a learners permit");
         }
-}else if (age >= 5){
-        if(age == 15)
+}else if (age >= 5)
+        if(age == 15){
         printf("You are old enough to go to school \n)");
 }else{
        printf("Sorry you are to young to go to school\n");
-};
-return 0;
 }
+return 0;
+
 

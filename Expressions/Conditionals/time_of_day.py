@@ -1,5 +1,11 @@
-time = 145
-if time >= 1200:
-        print("Good Morning")
+import datetime
+
+currenttime = datetime.datetime.now()
+
+print(currenttime.hour)
+if currenttime.hour <=12:
+    print("Good morning")
+elif currenttime.hour<18:
+    print("Good Afternoon")
 else:
-        print("Good Afternoon")
+    print("Good evening")
