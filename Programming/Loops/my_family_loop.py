@@ -1,14 +1,8 @@
-import random
-count= 0
-siblings = ["Louisnea", "Richard", "Kent", "Kyla", "Caleb"]
-
-
-while count < len(siblings):
-   print(siblings[count])
-   count+=1
-
  
- 
+sib = ["Louisnea", "Richard", "Christopher","Kent", "Kyla", "Micheal", "Caleb", "Kathryn"]
+
+for sib in sib:
+   print(f"Hello {sib}!")
 
 
 
